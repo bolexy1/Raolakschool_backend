@@ -13,9 +13,18 @@
         echo"<p> <h3>a paragraph tag did this</h3></p>";
     }
 
+
+
     //this a one line comment
     echo "one line comment"
     /*multiple lines comments*/ 
     ?>
+
+<?php
+    echo "how to embed php in html";
+    
+    if (true){?>
+        echo"<p> <h3>a paragraph tag did this</h3></p>";
+   <?php }?>
 </body>
 </html>
